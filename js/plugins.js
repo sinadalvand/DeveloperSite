@@ -76,7 +76,7 @@
             }
         }(), k = j("transform"), l = a("<div />", {style: "background:#fff"}).css("background-position-x") !== d,
         m = l ? function (a, b, c) {
-            a.css({"background-position-x": b, "background-position-y": c})
+            a.css({"background-position-x": "center", "background-position-y": c})
         } : function (a, b, c) {
             a.css("background-position", b + " " + c)
         }, n = l ? function (a) {
